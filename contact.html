@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="futurequestalliance connects donors with educational resources to support tsudents in need.Join us in making a difference">
+    <meta name="keywords" content="Future Alliance,donors,Educational resources,support education,learning materials,volunteers">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - FutureQuest Alliance</title>
+    <link rel="icon" type="image/x-icon" href="media3/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="Home.html" target="_blank">Home</a></li>
+            <li><a href="about.html" target="_blank">About Us</a></li>
+            <li><a href="projects.html" target="_blank">Projects</a></li>
+            <li><a href="get-involved.html" target="_blank">Get Involved</a></li>
+            <li><a href="Contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <header>
+        <h1>General Inquiries</h1>
+        <p>For general questions or information about FutureQuest Alliance:</p>
+        <address>
+            <p>Email: <a href="mailto:info@futurequestalliance.org">info@futurequestalliance.org</a></p>
+            <p>Phone: +27 (0) 123 456 789</p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.5943457192548!2d28.105287974584854!3d-26.014102577194198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e0fafb856f1%3A0xeb489d05fbd8c454!2sMall%20of%20Africa!5e0!3m2!1sen!2sza!4v1730980923171!5m2!1sen!2sza" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </address>
+    </header>
+    <section>
+        <hr>
+        <h2>Partnerships and Sponsorships</h2>
+        <p>Interested in partnering with us or becoming a sponsor?</p>
+        <address>
+            <p>Email: <a href="mailto:partnerships@futurequestalliance.org">partnerships@futurequestalliance.org</a></p>
+            <p>Phone: +27 (0) 123 456 790</p>
+        </address>
+        <hr>
+        <h3>Donations and Contributions</h3>
+        <p>For questions about making donations or contributing resources:</p>
+        <address>
+            <p>Email: <a href="mailto:donations@futurequestalliance.org">donations@futurequestalliance.org</a></p>
+            <p>Phone: +27 (0) 123 456 792</p>
+        </address>
+        <hr>
+        <h4>Feedback and Support</h4>
+        <p>Have feedback or need support with the platform?</p>
+        <address>
+            <p>Email: <a href="mailto:support@futurequestalliance.org">support@futurequestalliance.org</a></p>
+            <p>Phone: +27 (0) 123 456 793</p>
+        </address>
+        <hr>
+        <h5>Office Hours</h5>
+        <p>Monday to Friday: 9:00 AM - 5:00 PM</p>
+        <ul>
+            <li>Saturday: Closed</li>
+            <li>Sunday: Closed</li>
+        </ul>
+        <hr>
+        <script>
+            
+            function validateForm() {
+                const name = document.getElementById("name");
+                const email = document.getElementById("email");
+                const message = document.getElementById("message");
+                let valid = true;
+    
+                name.addEventListener("focus", () => { if (name.value === "Enter your name") name.value = ""; });
+                email.addEventListener("focus", () => { if (email.value === "Enter your email") email.value = ""; });
+                message.addEventListener("focus", () => { if (message.value === "Enter your message") message.value = ""; });
+    
+                
+                if (name.value.trim() === "") {
+                    alert("Name is required.");
+                    name.focus();
+                    valid = false;
+                } else if (email.value.trim() === "") {
+                    alert("Email is required.");
+                    email.focus();
+                    valid = false;
+                } else if (message.value.trim() === "") {
+                    alert("Message is required.");
+                    message.focus();
+                    valid = false;
+                }
+    
+                return valid;
+            }
+        </script>
+
+        <form action="mailto:example@example.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value="Enter your name"><br><br>
+        
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="Enter your email"><br><br>
+        
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message">Enter your message</textarea><br><br>
+        
+            <input type="submit" value="Submit">
+        </form>
+
+
+        <h6><marquee>"Empower Minds, Transform Futures"</h6></marquee>
+        </section>  
+            <footer>
+            <p>Please follow us:</p>
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.x.com" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.tiktok.com" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            
+            </footer>         
+</body>
+</html>

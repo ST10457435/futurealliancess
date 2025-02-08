@@ -1,0 +1,280 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #eaeef2; 
+}
+nav {
+    background-color: #ff6b6b; 
+    color: #fff;
+    padding: 15px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 30px; 
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ffd93d; 
+}
+
+header {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffffff; 
+    border-bottom: 5px solid #ff6b6b; 
+    text-align: center; 
+}
+
+header h1 {
+    color: #ff6b6b; 
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+header img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+section {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+section h2, section h3, section h4, section h5 {
+    color: #ff6b6b;
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+
+section ul {
+    padding-left: 20px;
+    color: #555;
+}
+
+section ul li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+section img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; 
+}
+
+.social-icon {
+    font-size: 30px;
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0073e6; 
+    transform: scale(1.1); 
+}
+
+.social-icon i {
+    font-size: 40px; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff6b6b; 
+    color: #fff;
+}
+
+table td {
+    background-color: #f9f9f9; 
+}
+
+
+footer {
+    background-color: #ff6b6b; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h4 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 30px; 
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ffd93d; 
+}
+
+
+marquee {
+    font-style: italic;
+    color: #ffd93d; 
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+}
+.image-container {
+    text-align: center;
+    margin: 15px 0; 
+}
+
+.image-container img {
+    display: inline-block; 
+  height: auto; 
+    margin: 0 10px; 
+}
+.image-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-center img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em; 
+    }
+
+    section {
+        padding: 20px;
+    }
+    
+
+    footer {
+        padding: 15px 0;
+    }
+
+    section h2, section h3, section h4, section h5 {
+        font-size: 1.8em; 
+    }
+
+    table {
+        font-size: 0.9em; 
+    }
+
+    footer ul li {
+        display: block; 
+        margin: 10px 0;
+    }
+
+    .split{
+        flex-direction: row;
+    }
+    .split{
+        flex-basis: 100%;
+    }
+}
+.split{
+    display:flex;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 1.5em; 
+    }
+
+    nav ul li a {
+        font-size: 1em; 
+    }
+
+    section h2 {
+        font-size: 1.5em; 
+    }
+
+    footer h4 {
+        font-size: 1.2em; 
+    }
+    
+    footer ul li a {
+        font-size: 1em; 
+    }
+    split{
+        flex-direction: row;
+    }
+    .split{
+        flex-basis: 100%;
+    }
+}
